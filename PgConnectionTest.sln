@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PgTestTool", "PgTestTool\PgTestTool.csproj", "{7C8A9C6E-E098-4719-BC64-048B03581849}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C8A9C6E-E098-4719-BC64-048B03581849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8A9C6E-E098-4719-BC64-048B03581849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8A9C6E-E098-4719-BC64-048B03581849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8A9C6E-E098-4719-BC64-048B03581849}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5E8DC3F-BE85-41FC-ACE0-E7DACF8448FA}
+	EndGlobalSection
+EndGlobal
