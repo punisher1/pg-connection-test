@@ -26,9 +26,9 @@ namespace PgTestTool
             var username = Console.ReadLine();
             username = string.IsNullOrWhiteSpace(username) ? "postgres" : username;
 
-            Console.WriteLine("请输入目标数据库密码：【默认：96upDBYwZhcCKt8F9l】");
+            Console.WriteLine("请输入目标数据库密码：");
             var password = Console.ReadLine();
-            password = string.IsNullOrWhiteSpace(password) ? "96upDBYwZhcCKt8F9l" : password;
+            //password = string.IsNullOrWhiteSpace(password) ? "" : password;
 
             var pg = new PgContext(host, port, database, username, password);
 
